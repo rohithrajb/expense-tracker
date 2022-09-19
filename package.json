@@ -116,6 +116,7 @@
     "core-js-pure": "^3.24.1",
     "core-util-is": "^1.0.3",
     "cosmiconfig": "^7.0.1",
+    "create-app-react": "^1.0.6",
     "cross-spawn": "^7.0.3",
     "crypto-random-string": "^2.0.0",
     "css-blank-pseudo": "^3.0.3",
@@ -782,7 +783,6 @@
     "server": "nodemon server",
     "client": "npm start --prefix client",
     "dev": "concurrently \"npm run server\" \"npm run client\""
-
   },
   "author": "Rohith Raj",
   "license": "MIT",
