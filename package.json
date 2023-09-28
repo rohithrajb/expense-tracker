@@ -782,7 +782,8 @@
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "start": "node server",
+    "start": "react-scripts --expose-gc --max-old-space-size=8192 start",
+    "build": "react-scripts --expose-gc --max-old-space-size=8192 build",
     "server": "nodemon server",
     "client": "npm start --prefix client",
     "dev": "concurrently \"npm run server\" \"npm run client\""
